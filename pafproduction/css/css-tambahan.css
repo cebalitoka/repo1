@@ -1,0 +1,119 @@
+.block-tengah{display:block;margin-left:auto;margin-right:auto;color:red!important;}
+.paginasiAjaxBlog{min-width:20px;min-height:10px;}
+._teks_tengah{ text-align: center; }
+
+.portfolio-modal-konten-ganda .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-image: url("../joimg/common-site/splash-background.png");
+    background-attachment: fixed;    
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    z-index:1050!important;
+    position: fixed;
+
+    overflow:hidden;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;    
+    -webkit-overflow-scrolling:touch;
+    outline:0}
+
+}
+
+.modal-content .section-heading{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 65px;
+    font-family: "sketch_rockwellregular";
+    font-weight: normal!important;
+
+}
+
+.portfolio-modal-konten-ganda .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal-konten-ganda .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal-konten-ganda .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal-konten-ganda .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal-konten-ganda .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal-konten-ganda .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal-konten-ganda .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal-konten-ganda .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: -30px;
+    /*background-color: #222;*/
+/*    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);*/
+}
+
+.portfolio-modal-konten-ganda .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /*background-color: #222;*/
+/*    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);*/
+}
+
+.portfolio-modal-konten-ganda .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.modal{
+    display:none;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:1050;
+    -webkit-overflow-scrolling:touch;
+    outline:0}
